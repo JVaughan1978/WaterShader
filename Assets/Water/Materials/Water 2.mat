@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Water 2
+  m_Shader: {fileID: 4800000, guid: 6c75665be691b764d9f4078bc7bccbee, type: 3}
+  m_ShaderKeywords: _FOAM_ON _SUBSURFACESCATTERING_ON _TRANSPARENCY_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Normals:
+        m_Texture: {fileID: 2800000, guid: 26d449319f944a4458e3b265cfb147bb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTexture:
+        m_Texture: {fileID: 2800000, guid: 8c476a2ee6be58249b31088b49c1c241, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normals:
+        m_Texture: {fileID: 2800000, guid: 26d449319f944a4458e3b265cfb147bb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Skybox:
+        m_Texture: {fileID: 8900000, guid: a6f48598864c34ef195638b621ad739a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - NormalsScale: 26
+    - NormalsStrength: 0.5
+    - _ApplyNormalMapping: 1
+    - _BumpScale: 1
+    - _CompileShaderWithDebugInfo: 0
+    - _ComputeDirectionalLight: 1
+    - _Cutoff: 0.5
+    - _DebugDisableShapeTextures: 0
+    - _DebugDisableSmoothLOD: 0
+    - _DebugVisualiseShapeSample: 0
+    - _DetailNormalMapScale: 1
+    - _DirectionalLightBoost: 5
+    - _DirectionalLightFallOff: 83
+    - _Distance: 16
+    - _DstBlend: 0
+    - _Foam: 1
+    - _Foam3DLighting: 1
+    - _FoamScale: 5.7
+    - _FresnelPower: 5
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _NormalsScale: 8.2
+    - _NormalsStrength: 0.5
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _RefractionFalloff: 0.99972624
+    - _ShorelineFoamMaxDepth: 0.73
+    - _ShorelineFoamMinDepth: 0.34
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SubSurfaceBase: 0.281
+    - _SubSurfaceScattering: 1
+    - _SubSurfaceSun: 3.35
+    - _SubSurfaceSunFallOff: 10.2
+    - _Transparency: 1
+    - _UVSec: 0
+    - _WaveFoamBubblesCoverage: 1.06
+    - _WaveFoamCoverage: 0.51
+    - _WaveFoamFeather: 0.34
+    - _WaveFoamLightScale: 0.57
+    - _WaveFoamNormalsY: 0.073
+    - _WaveFoamStrength: 3.3
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DepthFogDensity: {r: 0.55, g: 0.43, b: 0.52, a: 1}
+    - _Diffuse: {r: 0, g: 0.04874209, b: 0.2924528, a: 0.7}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FoamBubbleColor: {r: 0.4716981, g: 0.36869237, b: 0.2781239, a: 1}
+    - _FoamWhiteColor: {r: 1, g: 1, b: 1, a: 0.65882355}
+    - _SubSurfaceColour: {r: 0.1263795, g: 0.37458667, b: 0.3773585, a: 1}
